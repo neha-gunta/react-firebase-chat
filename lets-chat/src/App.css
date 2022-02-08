@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(45, 42, 58);
+  padding: 0px;
+  margin: 0;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1b1a1a;
+  padding: 3px;
+color: rgb(235, 225, 225);
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.profilePic{
+  border-radius: 50%;
+}
+.signOut{
+  width:120px;
+  height: 45px;
+  background-color:rgb(24, 4, 51);
+  border: 2px solid rgb(32, 6, 66);
+  border-radius: 30px;
+  color: rgb(182, 132, 240);
+  font-weight: 600;
+  font-size:large ;
+}
+
+.msgPic{
+  width:50px;
+  height:50px;
+padding: 6px;
+border-radius: 50%;
+}
+.chat{
+  z-index:-1;
+  padding-top: 100px ;
+  padding-bottom:10vh ;
+  display: flex;
+  flex-direction: column;
+
+}
+.sentmsg{
+
+  background: #e5e5fb;
+  border-radius: 40px;
+  border-top-left-radius: 0px;
+  margin: 5px;
+  
+  padding-right: 20px;
+  width: max-content;
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-evenly;
+  max-width: 70vmax;
+  align-self: flex-start;
+
+}
+.By{
+  font-size: small;
+  
+  padding-bottom: 3px;
+  padding-top: 2px;
+  
+  color: black;
+}
+.text{
+  font-size:larger;
+  padding: 5px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.non-picPart{
+  padding:2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.receivedmsg{
+  background: #25a5f5;
+  border-radius: 40px;
+  border-top-right-radius: 0px;
+  margin: 5px;
+ padding-left: 20px;
+  width: max-content;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:flex-start;
+  align-self: flex-end;
+  justify-content:space-around;
+max-width: 60vw;
+word-wrap: break-word;
+}
+.msgIP{
+  background-color: rgb(19, 16, 16);
+  position: fixed;
+  
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items: baseline;
+}
+.msgbox{
+  background-color: rgb(24, 23, 23);
+  border-radius:10px;
+  border:2px solid black;
+  padding: 5px;
+height: 9vh;
+width:78vw;
+color: white;
+word-wrap: break-word;
+}
+.submitbtn{
+  background-color: rgb(56, 56, 143);
+  margin: 10px;
+  width: 70px;
+  height:40px ;
+  font-weight: 600;
+  border-radius: 10px;
+  border:2px solid  rgb(56, 56, 143);;
+
+}
+.arrow{
+ z-index: 9;
+  position: fixed;
+  padding: 10px;
+  bottom: 55px;
+  width:40px ;
+  height:40px;
+  color: #e5e5fb;
+}
+.arrow:hover{
+width:45px;
+height:45px;
+}
+.submitbtn:hover{
+  font-size: 100%;
+}
+.signInbtn{
+  position: absolute;
+  left: 35%;
+  top:30%;
+  width:200px;
+  height: 75px;
+  background-color:rgb(24, 4, 51);
+  border: 2px solid rgb(32, 6, 66);
+  border-radius: 30px;
+  color: rgb(182, 132, 240);
+  font-weight: 600;
+  font-size:large ;
+}
+button:hover{
+  font-size: 120%;
+  
+}
