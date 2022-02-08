@@ -1,6 +1,9 @@
 # react-firebase-chat
 A full stack react+firebase chat app which
--uses the firestore realtime database
--provides google authentication
--provides feature to star messages
+
+1.uses the firestore realtime database
+
+2.provides google authentication
+
+3.provides feature to star messages
 
