@@ -5,5 +5,5 @@ A full stack react+firebase chat app which
 
 2.provides google authentication
 
-3.provides feature to star messages
+
 
